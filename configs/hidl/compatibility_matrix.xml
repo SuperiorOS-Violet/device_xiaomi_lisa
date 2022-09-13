@@ -108,4 +108,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>qccsyshal</instance>
         </interface>
    </hal>
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.citsensorservice</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::ICitSensorService/default</fqname>
+    </hal>
 </compatibility-matrix>
